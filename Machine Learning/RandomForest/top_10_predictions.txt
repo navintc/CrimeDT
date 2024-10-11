@@ -1,0 +1,40 @@
+Location: (80.640351, 7.331616) at 4:49
+Predicted Crime Type: Burglary
+Probability: 0.60
+
+Location: (80.633779, 7.315139) at 11:22
+Predicted Crime Type: Burglary
+Probability: 0.57
+
+Location: (80.611420, 7.321026) at 3:29
+Predicted Crime Type: Burglary
+Probability: 0.55
+
+Location: (80.636703, 7.322436) at 19:23
+Predicted Crime Type: Burglary
+Probability: 0.53
+
+Location: (80.632454, 7.329192) at 11:12
+Predicted Crime Type: Burglary
+Probability: 0.53
+
+Location: (80.617118, 7.323072) at 6:51
+Predicted Crime Type: Burglary
+Probability: 0.46
+
+Location: (80.564402, 7.051985) at 5:22
+Predicted Crime Type: Burglary
+Probability: 0.46
+
+Location: (80.634771, 7.311697) at 13:10
+Predicted Crime Type: Burglary
+Probability: 0.45
+
+Location: (80.622308, 7.341378) at 0:10
+Predicted Crime Type: Burglary
+Probability: 0.43
+
+Location: (80.628854, 7.328358) at 18:14
+Predicted Crime Type: Burglary
+Probability: 0.42
+

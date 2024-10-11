@@ -1,0 +1,24 @@
+Best Parameters: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+
+Accuracy: 0.47
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+      Abduction       0.00      0.00      0.00         3
+        Assault       0.50      0.29      0.36         7
+AttemptedMurder       1.00      0.00      0.00         1
+       Burglary       0.43      0.81      0.56        26
+           Drug       0.86      0.67      0.75        18
+          Fraud       0.50      1.00      0.67         1
+     Kidnapping       1.00      0.00      0.00         2
+         Murder       1.00      0.00      0.00         1
+           Rape       1.00      0.00      0.00         1
+        Robbery       1.00      0.00      0.00         5
+          Theft       0.14      0.07      0.10        14
+
+      micro avg       0.48      0.47      0.47        79
+      macro avg       0.68      0.26      0.22        79
+   weighted avg       0.54      0.47      0.41        79
+Cross-Validation Scores: [0.24050633 0.26582278 0.32278481 0.27848101 0.31847134]
+Mean CV Accuracy: 0.29

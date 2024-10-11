@@ -1,0 +1,25 @@
+Best Parameters: {'algorithm': 'auto', 'n_neighbors': 10, 'weights': 'distance'}
+
+Accuracy: 0.43
+
+Classification Report:
+                      precision    recall  f1-score   support
+
+           Abduction       1.00      0.00      0.00         5
+             Assault       0.25      0.21      0.23        14
+     AttemptedMurder       1.00      0.00      0.00         1
+            Burglary       0.46      0.69      0.55        64
+                Drug       0.43      0.48      0.45        25
+               Fraud       0.67      0.25      0.36         8
+          Kidnapping       1.00      0.00      0.00         2
+              Murder       1.00      0.00      0.00         2
+ObstructionOfJustice       1.00      0.00      0.00         1
+                Rape       1.00      0.00      0.00         3
+             Robbery       1.00      0.00      0.00         9
+               Theft       0.37      0.29      0.33        24
+
+            accuracy                           0.43       158
+           macro avg       0.76      0.16      0.16       158
+        weighted avg       0.51      0.43      0.38       158
+Cross-Validation Scores: [0.39873418 0.29746835 0.36708861 0.34810127 0.35031847]
+Accuracy: 0.43037974683544306

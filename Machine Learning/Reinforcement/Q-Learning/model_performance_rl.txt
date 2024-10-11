@@ -1,0 +1,17 @@
+Accuracy: 0.40
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Abduction       0.55      0.72      0.63       298
+     Assault       0.69      0.71      0.70       298
+    Burglary       0.71      0.74      0.72       298
+        Drug       0.32      1.00      0.48       298
+       Fraud       0.00      0.00      0.00       298
+        Rape       0.00      0.00      0.00       298
+     Robbery       0.00      0.00      0.00       298
+       Theft       0.00      0.00      0.00       298
+
+   micro avg       0.49      0.40      0.44      2384
+   macro avg       0.28      0.40      0.32      2384
+weighted avg       0.28      0.40      0.32      2384
