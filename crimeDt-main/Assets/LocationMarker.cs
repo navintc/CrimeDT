@@ -121,15 +121,17 @@ public class MarkerManager : MonoBehaviour
 
             var requestBody = new
             {
-                model = "gpt-3.5-turbo",
+                model = "gpt-4o",
                 messages = new List<object>
                 {
-                    new { role = "system", content = "You are an assistant that generates police instructions for predicted crimes. Make sure to clearly label the instructions with the coordinates for each crime." },
+                    // new { role = "system", content = "You are an assistant that generates police instructions for predicted crimes. Make sure to clearly label the instructions with the coordinates for each crime according to the given hours of the day." },
+                    new { role = "system", content = "generate police instructions for predicted crimes, labeling them with coordinates based on the time of day. Provide specific advice considering a radius of 500m geography (incl. rivers, lakes) around the given longitude and latitude."},
                     new { role = "user", content = prompt }
                 }
             };
 
             string jsonRequestBody = JsonConvert.SerializeObject(requestBody);
+            Debug.Log("This is a log message."+ jsonRequestBody);
 
             using (UnityWebRequest request = new UnityWebRequest("https://api.openai.com/v1/chat/completions", "POST"))
             {

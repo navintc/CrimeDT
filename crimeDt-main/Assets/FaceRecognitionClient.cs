@@ -7,6 +7,7 @@ public class FaceRecognition : MonoBehaviour
 {
     public string apiUrl = "http://127.0.0.1:5001/face/recognize";  // URL to your Flask API
     public RawImage faceDisplay;  // UI element to display the face image
+    public GameObject criminalFacePlaceholder;
 
     void Start()
     {
@@ -77,6 +78,7 @@ public class FaceRecognition : MonoBehaviour
         }
         else
         {
+            criminalFacePlaceholder.SetActive(true);
             // Get the texture from the request
             Texture2D texture = DownloadHandlerTexture.GetContent(imageRequest);
 
