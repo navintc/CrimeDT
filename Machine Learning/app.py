@@ -9,6 +9,7 @@ from authlib.integrations.flask_client import OAuth
 from dotenv import find_dotenv, load_dotenv
 from werkzeug.security import check_password_hash, generate_password_hash
 import boto3
+from ensemble import ensemble_bp
 
 ENV_FILE = find_dotenv()
 if ENV_FILE:
@@ -55,6 +56,7 @@ auth0 = oauth.register(
 # Register the LSTM Blueprint
 app.register_blueprint(LSTM_bp, url_prefix='/lstm')
 app.register_blueprint(face_recognition_bp, url_prefix='/face')
+app.register_blueprint(ensemble_bp, url_prefix='/ensemble')
 
 @app.route('/')
 def index():
